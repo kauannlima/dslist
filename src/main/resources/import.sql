@@ -1,3 +1,6 @@
+INSERT INTO tb_game_list (name) VALUES ('Aventura e RPG');
+INSERT INTO tb_game_list (name) VALUES ('Jogos de plataforma');
+
 INSERT INTO tb_game (title, score, game_year, genre, platforms, img_url, short_description, long_description) VALUES ('Mass Effect Trilogy', 4.8, 2012, 'Role-playing (RPG), Shooter', 'XBox, Playstation, PC', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/1.png', 'Comande a Normandy e salve a galáxia da ameaça dos Reapers.', 'Mass Effect Trilogy é uma série de jogos de RPG e tiro em terceira pessoa desenvolvida pela BioWare. Acompanhe o Comandante Shepard em uma missão épica para unir civilizações galácticas contra uma ameaça ancestral conhecida como Reapers. Suas decisões moldam o destino da galáxia.');
 INSERT INTO tb_game (title, score, game_year, genre, platforms, img_url, short_description, long_description) VALUES ('Red Dead Redemption 2', 4.7, 2018, 'Role-playing (RPG), Adventure', 'XBox, Playstation, PC', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/2.png', 'Viva o Velho Oeste como Arthur Morgan, um fora da lei em fuga.', 'Red Dead Redemption 2 é um jogo de ação e aventura em mundo aberto da Rockstar Games. Situado em 1899, você vive como Arthur Morgan, membro da gangue Van der Linde, tentando sobreviver à queda do Velho Oeste em meio a conflitos internos e perseguições da lei.');
 INSERT INTO tb_game (title, score, game_year, genre, platforms, img_url, short_description, long_description) VALUES ('The Witcher 3: Wild Hunt', 4.7, 2014, 'Role-playing (RPG), Adventure', 'XBox, Playstation, PC', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/3.png', 'Seja Geralt de Rívia em uma jornada épica por um mundo sombrio.', 'The Witcher 3: Wild Hunt é um RPG de mundo aberto da CD Projekt Red. Você controla Geralt de Rívia, um caçador de monstros, em busca de sua filha adotiva, Ciri, enquanto enfrenta guerras, intrigas e criaturas místicas em um mundo rico e detalhado.');
@@ -8,3 +11,15 @@ INSERT INTO tb_game (title, score, game_year, genre, platforms, img_url, short_d
 INSERT INTO tb_game (title, score, game_year, genre, platforms, img_url, short_description, long_description) VALUES ('Ori and the Blind Forest', 4, 2015, 'Platform', 'XBox, Playstation, PC', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/8.png', 'Uma jornada tocante em um mundo mágico e vibrante.', 'Ori and the Blind Forest é um jogo de plataforma com narrativa emocional e visuais deslumbrantes. Você controla Ori, um espírito guardião, em uma jornada comovente para restaurar a floresta de Nibel e descobrir seu verdadeiro destino.');
 INSERT INTO tb_game (title, score, game_year, genre, platforms, img_url, short_description, long_description) VALUES ('Cuphead', 4.6, 2017, 'Platform', 'XBox, Playstation, PC', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/9.png', 'Estilo retrô, tiroteio frenético e chefes memoráveis.', 'Cuphead é um jogo de plataforma run and gun com gráficos inspirados nos desenhos dos anos 1930. Famoso pela dificuldade elevada, ele traz batalhas contra chefes criativos e jogabilidade intensa para um ou dois jogadores.');
 INSERT INTO tb_game (title, score, game_year, genre, platforms, img_url, short_description, long_description) VALUES ('Sonic CD', 4, 1993, 'Platform', 'Sega CD, PC', 'https://raw.githubusercontent.com/devsuperior/java-spring-dslist/main/resources/10.png', 'Viaje no tempo com Sonic para salvar o futuro de Little Planet.', 'Sonic CD é um jogo de plataforma da SEGA com mecânica única de viagem no tempo. Sonic deve salvar Amy Rose e impedir os planos malignos do Dr. Robotnik, enfrentando novos inimigos e coletando Time Stones para mudar o futuro.');
+
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (1, 1, 0);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (1, 2, 1);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (1, 3, 2);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (1, 4, 3);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (1, 5, 4);
+
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 6, 0);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 7, 1);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 8, 2);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 9, 3);
+INSERT INTO tb_belonging (list_id, game_id, position) VALUES (2, 10, 4);
